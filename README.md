@@ -140,7 +140,7 @@ Trouver son adresse IP locale : `ipconfig` (ligne "Adresse IPv4"). Depuis un aut
 
 ---
 
-# Journal du stage (Etapes de réalisation du projet)
+# Etapes de réalisation du projet
 - Mise en place de l'environnement de travail
 - Eploration de données (EDA)
 - Modéélisatiion
