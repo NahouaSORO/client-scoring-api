@@ -144,8 +144,8 @@ Trouver son adresse IP locale : `ipconfig` (ligne "Adresse IPv4"). Depuis un aut
 - Mise en place de l'environnement de travail
 - Exploration de données (EDA)
 - Modélisatiion
-- PasSage du notebook au code industrialisé (preprocess.py, train.py)
-- predict.py : Prdiction sur un  client unique
+- Passage du notebook au code industrialisé (preprocess.py, train.py)
+- predict.py : Prédiction sur un  client unique
 - Réalisation de l'API avec FastAPI (api/main.py)
 - Interface utilissateur (Streamlit)
 - Documentation du projet
