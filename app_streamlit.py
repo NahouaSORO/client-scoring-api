@@ -5,7 +5,8 @@ st.set_page_config(page_title="Simulateur de risque de crédit")
 st.title("Simulateur de risque de crédit")
 st.write("Remplissez les informations du client pour évaluer son risque de défaut de paiement.")
 
-API_URL = "http://127.0.0.1:8000/predict"
+API_URL = "https://client-scoring-api-3776f6be.fastapicloud.dev/predict"
+# API_URL = "http://127.0.0.1:8000/predict"
 
 with st.form("client_form"):
     col1, col2 = st.columns(2)
