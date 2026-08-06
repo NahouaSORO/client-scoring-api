@@ -1,4 +1,4 @@
-# Moteur de Scoring Client par Machine Learning exposé en API — Sujet de Stage
+# Moteur de Scoring Client par Machine Learning exposé en API
 
 API de scoring de risque de crédit : prédit la probabilité de défaut de paiement d'un client à partir de ses informations (revenu, historique de crédit, motif du prêt, etc.), via un modèle **XGBoost** entraîné sur le [Credit Risk Dataset](https://www.kaggle.com/datasets/laotse/credit-risk-dataset) (32 581 clients, 12 variables).
 
@@ -140,11 +140,11 @@ Trouver son adresse IP locale : `ipconfig` (ligne "Adresse IPv4"). Depuis un aut
 
 ---
 
-# Journal du stage (Etapes de réaliisation du projet)
+# Etapes de réalisation du projet
 - Mise en place de l'environnement de travail
-- Eploration de données (EDA)
-- Modéélisatiion
-- Pasage du notebook au code industrialisé (preprocess.py, train.py)
+- Exploration de données (EDA)
+- Modélisatiion
+- PasSage du notebook au code industrialisé (preprocess.py, train.py)
 - predict.py : Prdiction sur un  client unique
 - Réalisation de l'API avec FastAPI (api/main.py)
 - Interface utilissateur (Streamlit)
