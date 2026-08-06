@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-st.set_page_config(page_title="Simulateur de risque de crédit", page_icon="💳")
+st.set_page_config(page_title="Simulateur de risque de crédit")
 st.title("Simulateur de risque de crédit")
 st.write("Remplissez les informations du client pour évaluer son risque de défaut de paiement.")
 
@@ -24,7 +24,7 @@ with st.form("client_form"):
             ['Sélectionner', 'RENT', 'OWN', 'MORTGAGE', 'OTHER']
         )
         person_emp_length = st.number_input(
-            "Ancienneté professionnelle (années)", min_value=0.0, value=None, 
+            "Ancienneté professionnelle (années)", min_value=0, value=None, 
             placeholder="Ex : 3"
         )
         loan_intent = st.selectbox(
@@ -115,3 +115,6 @@ if submitted:
                     st.success(f"✅ {result['prediction']}")
         except requests.exceptions.ConnectionError:
             st.error("Impossible de contacter l'API. Vérifie qu'elle est bien lancée (uvicorn).")
+
+
+            

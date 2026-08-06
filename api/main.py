@@ -17,7 +17,7 @@ class ClientInput(BaseModel):
     person_age: int
     person_income: float
     person_home_ownership: Literal['RENT', 'OWN', 'MORTGAGE', 'OTHER']
-    person_emp_length: float
+    person_emp_length: int
     loan_intent: Literal['PERSONAL', 'EDUCATION', 'MEDICAL', 'VENTURE', 'HOMEIMPROVEMENT', 'DEBTCONSOLIDATION']
     loan_grade: Literal['A', 'B', 'C', 'D', 'E', 'F', 'G']
     loan_amnt: float
